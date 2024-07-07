@@ -1,0 +1,56 @@
+E:\Projects\MVC Demo Session 2\Demo.DAL\bin\Debug\net6.0\Demo.DAL.deps.json
+E:\Projects\MVC Demo Session 2\Demo.DAL\bin\Debug\net6.0\Demo.DAL.runtimeconfig.json
+E:\Projects\MVC Demo Session 2\Demo.DAL\bin\Debug\net6.0\Demo.DAL.dll
+E:\Projects\MVC Demo Session 2\Demo.DAL\bin\Debug\net6.0\Demo.DAL.pdb
+E:\Projects\MVC Demo Session 2\Demo.DAL\obj\Debug\net6.0\Demo.DAL.csproj.AssemblyReference.cache
+E:\Projects\MVC Demo Session 2\Demo.DAL\obj\Debug\net6.0\Demo.DAL.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\MVC Demo Session 2\Demo.DAL\obj\Debug\net6.0\Demo.DAL.AssemblyInfoInputs.cache
+E:\Projects\MVC Demo Session 2\Demo.DAL\obj\Debug\net6.0\Demo.DAL.AssemblyInfo.cs
+E:\Projects\MVC Demo Session 2\Demo.DAL\obj\Debug\net6.0\Demo.DAL.csproj.CoreCompileInputs.cache
+E:\Projects\MVC Demo Session 2\Demo.DAL\obj\Debug\net6.0\Demo.DAL.dll
+E:\Projects\MVC Demo Session 2\Demo.DAL\obj\Debug\net6.0\refint\Demo.DAL.dll
+E:\Projects\MVC Demo Session 2\Demo.DAL\obj\Debug\net6.0\Demo.DAL.pdb
+E:\Projects\MVC Demo Session 2\Demo.DAL\obj\Debug\net6.0\Demo.DAL.genruntimeconfig.cache
+E:\Projects\MVC Demo Session 2\Demo.DAL\obj\Debug\net6.0\ref\Demo.DAL.dll
+E:\Route\MVC\Session 04\MVC Demo\Demo.DAL\bin\Debug\net6.0\Demo.DAL.deps.json
+E:\Route\MVC\Session 04\MVC Demo\Demo.DAL\bin\Debug\net6.0\Demo.DAL.runtimeconfig.json
+E:\Route\MVC\Session 04\MVC Demo\Demo.DAL\bin\Debug\net6.0\Demo.DAL.dll
+E:\Route\MVC\Session 04\MVC Demo\Demo.DAL\bin\Debug\net6.0\Demo.DAL.pdb
+E:\Route\MVC\Session 04\MVC Demo\Demo.DAL\obj\Debug\net6.0\Demo.DAL.csproj.AssemblyReference.cache
+E:\Route\MVC\Session 04\MVC Demo\Demo.DAL\obj\Debug\net6.0\Demo.DAL.GeneratedMSBuildEditorConfig.editorconfig
+E:\Route\MVC\Session 04\MVC Demo\Demo.DAL\obj\Debug\net6.0\Demo.DAL.AssemblyInfoInputs.cache
+E:\Route\MVC\Session 04\MVC Demo\Demo.DAL\obj\Debug\net6.0\Demo.DAL.AssemblyInfo.cs
+E:\Route\MVC\Session 04\MVC Demo\Demo.DAL\obj\Debug\net6.0\Demo.DAL.csproj.CoreCompileInputs.cache
+E:\Route\MVC\Session 04\MVC Demo\Demo.DAL\obj\Debug\net6.0\Demo.DAL.dll
+E:\Route\MVC\Session 04\MVC Demo\Demo.DAL\obj\Debug\net6.0\refint\Demo.DAL.dll
+E:\Route\MVC\Session 04\MVC Demo\Demo.DAL\obj\Debug\net6.0\Demo.DAL.pdb
+E:\Route\MVC\Session 04\MVC Demo\Demo.DAL\obj\Debug\net6.0\Demo.DAL.genruntimeconfig.cache
+E:\Route\MVC\Session 04\MVC Demo\Demo.DAL\obj\Debug\net6.0\ref\Demo.DAL.dll
+E:\Route\MVC\Session 06\MVC Demo\Demo.DAL\bin\Debug\net6.0\Demo.DAL.deps.json
+E:\Route\MVC\Session 06\MVC Demo\Demo.DAL\bin\Debug\net6.0\Demo.DAL.runtimeconfig.json
+E:\Route\MVC\Session 06\MVC Demo\Demo.DAL\bin\Debug\net6.0\Demo.DAL.dll
+E:\Route\MVC\Session 06\MVC Demo\Demo.DAL\bin\Debug\net6.0\Demo.DAL.pdb
+E:\Route\MVC\Session 06\MVC Demo\Demo.DAL\obj\Debug\net6.0\Demo.DAL.csproj.AssemblyReference.cache
+E:\Route\MVC\Session 06\MVC Demo\Demo.DAL\obj\Debug\net6.0\Demo.DAL.GeneratedMSBuildEditorConfig.editorconfig
+E:\Route\MVC\Session 06\MVC Demo\Demo.DAL\obj\Debug\net6.0\Demo.DAL.AssemblyInfoInputs.cache
+E:\Route\MVC\Session 06\MVC Demo\Demo.DAL\obj\Debug\net6.0\Demo.DAL.AssemblyInfo.cs
+E:\Route\MVC\Session 06\MVC Demo\Demo.DAL\obj\Debug\net6.0\Demo.DAL.csproj.CoreCompileInputs.cache
+E:\Route\MVC\Session 06\MVC Demo\Demo.DAL\obj\Debug\net6.0\Demo.DAL.dll
+E:\Route\MVC\Session 06\MVC Demo\Demo.DAL\obj\Debug\net6.0\refint\Demo.DAL.dll
+E:\Route\MVC\Session 06\MVC Demo\Demo.DAL\obj\Debug\net6.0\Demo.DAL.pdb
+E:\Route\MVC\Session 06\MVC Demo\Demo.DAL\obj\Debug\net6.0\Demo.DAL.genruntimeconfig.cache
+E:\Route\MVC\Session 06\MVC Demo\Demo.DAL\obj\Debug\net6.0\ref\Demo.DAL.dll
+E:\Route\MVC\Session 07\MVC Demo\Demo.DAL\bin\Debug\net6.0\Demo.DAL.deps.json
+E:\Route\MVC\Session 07\MVC Demo\Demo.DAL\bin\Debug\net6.0\Demo.DAL.runtimeconfig.json
+E:\Route\MVC\Session 07\MVC Demo\Demo.DAL\bin\Debug\net6.0\Demo.DAL.dll
+E:\Route\MVC\Session 07\MVC Demo\Demo.DAL\bin\Debug\net6.0\Demo.DAL.pdb
+E:\Route\MVC\Session 07\MVC Demo\Demo.DAL\obj\Debug\net6.0\Demo.DAL.csproj.AssemblyReference.cache
+E:\Route\MVC\Session 07\MVC Demo\Demo.DAL\obj\Debug\net6.0\Demo.DAL.GeneratedMSBuildEditorConfig.editorconfig
+E:\Route\MVC\Session 07\MVC Demo\Demo.DAL\obj\Debug\net6.0\Demo.DAL.AssemblyInfoInputs.cache
+E:\Route\MVC\Session 07\MVC Demo\Demo.DAL\obj\Debug\net6.0\Demo.DAL.AssemblyInfo.cs
+E:\Route\MVC\Session 07\MVC Demo\Demo.DAL\obj\Debug\net6.0\Demo.DAL.csproj.CoreCompileInputs.cache
+E:\Route\MVC\Session 07\MVC Demo\Demo.DAL\obj\Debug\net6.0\Demo.DAL.dll
+E:\Route\MVC\Session 07\MVC Demo\Demo.DAL\obj\Debug\net6.0\refint\Demo.DAL.dll
+E:\Route\MVC\Session 07\MVC Demo\Demo.DAL\obj\Debug\net6.0\Demo.DAL.pdb
+E:\Route\MVC\Session 07\MVC Demo\Demo.DAL\obj\Debug\net6.0\Demo.DAL.genruntimeconfig.cache
+E:\Route\MVC\Session 07\MVC Demo\Demo.DAL\obj\Debug\net6.0\ref\Demo.DAL.dll

@@ -1,0 +1,46 @@
+﻿@model List<UserInRoleViewModel>
+@{
+    ViewData["Title"] = "AddOrRemoveUsers";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    h1 {
+        font-size: 32px; /* Set font size */
+        color: #333; /* Set text color */
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif /* Set font family */
+        text-align: center; /* Align text center */
+        margin-bottom: 20px; /* Add margin at the bottom */
+        font-weight: bold; /* Set font weight to bold */
+        text-transform: uppercase; /* Transform text to uppercase */
+    }
+    h2 {
+        font-size: 24px; /* Set font size */
+        color: #333; /* Set text color */
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif /* Set font family */
+        text-align: center; /* Align text center */
+        margin-bottom: 20px; /* Add margin at the bottom */
+        font-weight: bold; /* Set font weight to bold */
+    }
+</style>
+<h1>Add Or Remove Role from Users</h1>
+<h2>Role Name: "@ViewBag.RoleName"</h2>
+
+
+<form class="my-3" asp-action="AddOrRemoveUsers" asp-controller="Roles">
+    @for(var i = 0; i < Model.Count; ++i)
+    {
+        <div class="form-group">
+            <input asp-for="@Model[i].IsSelected">
+            <label asp-for="@Model[i].IsSelected" class="col-form-label">@Model[i].UserName</label>
+        </div>
+
+        <input type="hidden" asp-for="@Model[i].UserId" />
+        <input type="hidden" asp-for="@Model[i].UserName" />
+    }
+    
+    <div class="my-3">
+    <button type="submit" value="Submit" class="btn btn-primary">Submit</button>
+    <a asp-action="Index" class="btn btn-light">Back To List</a>
+    </div>
+</form>
+

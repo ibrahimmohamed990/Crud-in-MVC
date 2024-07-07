@@ -1,0 +1,22 @@
+﻿@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["SuccessMessage"]
+    </div>
+}
+@if (TempData["WarningMessage"] != null)
+{
+    <div class="alert alert-warning">
+        @TempData["WarningMessage"]
+    </div>
+}
+<form asp-action="Create" asp-controller="Employee" enctype="multipart/form-data">
+    <partial name="Partial Views/CreateOrUpdatePartialView" />
+    <button type="submit" value="Add" class="btn btn-primary">Submit</button>
+    <a asp-action="Index" class="btn btn-light">Back To List</a>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
+

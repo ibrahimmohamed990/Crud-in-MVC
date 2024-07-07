@@ -1,0 +1,60 @@
+E:\Projects\MVC Demo Session 2\Demo.BLL\bin\Debug\net6.0\Demo.BLL.deps.json
+E:\Projects\MVC Demo Session 2\Demo.BLL\bin\Debug\net6.0\Demo.BLL.dll
+E:\Projects\MVC Demo Session 2\Demo.BLL\bin\Debug\net6.0\Demo.BLL.pdb
+E:\Projects\MVC Demo Session 2\Demo.BLL\bin\Debug\net6.0\Demo.DAL.dll
+E:\Projects\MVC Demo Session 2\Demo.BLL\bin\Debug\net6.0\Demo.DAL.pdb
+E:\Projects\MVC Demo Session 2\Demo.BLL\obj\Debug\net6.0\Demo.BLL.csproj.AssemblyReference.cache
+E:\Projects\MVC Demo Session 2\Demo.BLL\obj\Debug\net6.0\Demo.BLL.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\MVC Demo Session 2\Demo.BLL\obj\Debug\net6.0\Demo.BLL.AssemblyInfoInputs.cache
+E:\Projects\MVC Demo Session 2\Demo.BLL\obj\Debug\net6.0\Demo.BLL.AssemblyInfo.cs
+E:\Projects\MVC Demo Session 2\Demo.BLL\obj\Debug\net6.0\Demo.BLL.csproj.CoreCompileInputs.cache
+E:\Projects\MVC Demo Session 2\Demo.BLL\obj\Debug\net6.0\Demo.BLL.csproj.CopyComplete
+E:\Projects\MVC Demo Session 2\Demo.BLL\obj\Debug\net6.0\Demo.BLL.dll
+E:\Projects\MVC Demo Session 2\Demo.BLL\obj\Debug\net6.0\refint\Demo.BLL.dll
+E:\Projects\MVC Demo Session 2\Demo.BLL\obj\Debug\net6.0\Demo.BLL.pdb
+E:\Projects\MVC Demo Session 2\Demo.BLL\obj\Debug\net6.0\ref\Demo.BLL.dll
+E:\Route\MVC\Session 04\MVC Demo\Demo.BLL\bin\Debug\net6.0\Demo.BLL.deps.json
+E:\Route\MVC\Session 04\MVC Demo\Demo.BLL\bin\Debug\net6.0\Demo.BLL.dll
+E:\Route\MVC\Session 04\MVC Demo\Demo.BLL\bin\Debug\net6.0\Demo.BLL.pdb
+E:\Route\MVC\Session 04\MVC Demo\Demo.BLL\bin\Debug\net6.0\Demo.DAL.dll
+E:\Route\MVC\Session 04\MVC Demo\Demo.BLL\bin\Debug\net6.0\Demo.DAL.pdb
+E:\Route\MVC\Session 04\MVC Demo\Demo.BLL\obj\Debug\net6.0\Demo.BLL.csproj.AssemblyReference.cache
+E:\Route\MVC\Session 04\MVC Demo\Demo.BLL\obj\Debug\net6.0\Demo.BLL.GeneratedMSBuildEditorConfig.editorconfig
+E:\Route\MVC\Session 04\MVC Demo\Demo.BLL\obj\Debug\net6.0\Demo.BLL.AssemblyInfoInputs.cache
+E:\Route\MVC\Session 04\MVC Demo\Demo.BLL\obj\Debug\net6.0\Demo.BLL.AssemblyInfo.cs
+E:\Route\MVC\Session 04\MVC Demo\Demo.BLL\obj\Debug\net6.0\Demo.BLL.csproj.CoreCompileInputs.cache
+E:\Route\MVC\Session 04\MVC Demo\Demo.BLL\obj\Debug\net6.0\Demo.BLL.csproj.CopyComplete
+E:\Route\MVC\Session 04\MVC Demo\Demo.BLL\obj\Debug\net6.0\Demo.BLL.dll
+E:\Route\MVC\Session 04\MVC Demo\Demo.BLL\obj\Debug\net6.0\refint\Demo.BLL.dll
+E:\Route\MVC\Session 04\MVC Demo\Demo.BLL\obj\Debug\net6.0\Demo.BLL.pdb
+E:\Route\MVC\Session 04\MVC Demo\Demo.BLL\obj\Debug\net6.0\ref\Demo.BLL.dll
+E:\Route\MVC\Session 06\MVC Demo\Demo.BLL\bin\Debug\net6.0\Demo.BLL.deps.json
+E:\Route\MVC\Session 06\MVC Demo\Demo.BLL\bin\Debug\net6.0\Demo.BLL.dll
+E:\Route\MVC\Session 06\MVC Demo\Demo.BLL\bin\Debug\net6.0\Demo.BLL.pdb
+E:\Route\MVC\Session 06\MVC Demo\Demo.BLL\bin\Debug\net6.0\Demo.DAL.dll
+E:\Route\MVC\Session 06\MVC Demo\Demo.BLL\bin\Debug\net6.0\Demo.DAL.pdb
+E:\Route\MVC\Session 06\MVC Demo\Demo.BLL\obj\Debug\net6.0\Demo.BLL.csproj.AssemblyReference.cache
+E:\Route\MVC\Session 06\MVC Demo\Demo.BLL\obj\Debug\net6.0\Demo.BLL.GeneratedMSBuildEditorConfig.editorconfig
+E:\Route\MVC\Session 06\MVC Demo\Demo.BLL\obj\Debug\net6.0\Demo.BLL.AssemblyInfoInputs.cache
+E:\Route\MVC\Session 06\MVC Demo\Demo.BLL\obj\Debug\net6.0\Demo.BLL.AssemblyInfo.cs
+E:\Route\MVC\Session 06\MVC Demo\Demo.BLL\obj\Debug\net6.0\Demo.BLL.csproj.CoreCompileInputs.cache
+E:\Route\MVC\Session 06\MVC Demo\Demo.BLL\obj\Debug\net6.0\Demo.BLL.csproj.CopyComplete
+E:\Route\MVC\Session 06\MVC Demo\Demo.BLL\obj\Debug\net6.0\Demo.BLL.dll
+E:\Route\MVC\Session 06\MVC Demo\Demo.BLL\obj\Debug\net6.0\refint\Demo.BLL.dll
+E:\Route\MVC\Session 06\MVC Demo\Demo.BLL\obj\Debug\net6.0\Demo.BLL.pdb
+E:\Route\MVC\Session 06\MVC Demo\Demo.BLL\obj\Debug\net6.0\ref\Demo.BLL.dll
+E:\Route\MVC\Session 07\MVC Demo\Demo.BLL\bin\Debug\net6.0\Demo.BLL.deps.json
+E:\Route\MVC\Session 07\MVC Demo\Demo.BLL\bin\Debug\net6.0\Demo.BLL.dll
+E:\Route\MVC\Session 07\MVC Demo\Demo.BLL\bin\Debug\net6.0\Demo.BLL.pdb
+E:\Route\MVC\Session 07\MVC Demo\Demo.BLL\bin\Debug\net6.0\Demo.DAL.dll
+E:\Route\MVC\Session 07\MVC Demo\Demo.BLL\bin\Debug\net6.0\Demo.DAL.pdb
+E:\Route\MVC\Session 07\MVC Demo\Demo.BLL\obj\Debug\net6.0\Demo.BLL.csproj.AssemblyReference.cache
+E:\Route\MVC\Session 07\MVC Demo\Demo.BLL\obj\Debug\net6.0\Demo.BLL.GeneratedMSBuildEditorConfig.editorconfig
+E:\Route\MVC\Session 07\MVC Demo\Demo.BLL\obj\Debug\net6.0\Demo.BLL.AssemblyInfoInputs.cache
+E:\Route\MVC\Session 07\MVC Demo\Demo.BLL\obj\Debug\net6.0\Demo.BLL.AssemblyInfo.cs
+E:\Route\MVC\Session 07\MVC Demo\Demo.BLL\obj\Debug\net6.0\Demo.BLL.csproj.CoreCompileInputs.cache
+E:\Route\MVC\Session 07\MVC Demo\Demo.BLL\obj\Debug\net6.0\Demo.BLL.dll
+E:\Route\MVC\Session 07\MVC Demo\Demo.BLL\obj\Debug\net6.0\refint\Demo.BLL.dll
+E:\Route\MVC\Session 07\MVC Demo\Demo.BLL\obj\Debug\net6.0\Demo.BLL.pdb
+E:\Route\MVC\Session 07\MVC Demo\Demo.BLL\obj\Debug\net6.0\ref\Demo.BLL.dll
+E:\Route\MVC\Session 07\MVC Demo\Demo.BLL\obj\Debug\net6.0\Demo.BLL.csproj.Up2Date

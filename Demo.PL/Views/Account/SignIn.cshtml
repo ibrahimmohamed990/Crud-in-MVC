@@ -1,0 +1,413 @@
+﻿@model SignInViewModel
+@{
+    ViewData["Title"] = "SignIn";
+    Layout = "~/Views/Shared/_AuthLayout.cshtml";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+    <link rel="stylesheet" href="~/css/LoginStyle.css">
+</head>
+<style>
+    html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, dl, dt, dd, ol, nav ul, nav li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+    }
+
+    p {
+        display: inline-block;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 16px; /* Set font size */
+        line-height: 1.6; /* Set line height for better readability */
+        color: #333; /* Set text color */
+        margin-bottom: 10px; /* Add margin at the bottom */
+    }
+
+    article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+        display: block;
+    }
+
+    .error-list {
+        margin: 10px 90px;
+        padding: 0;
+        list-style-type: none;
+        color: red;
+    }
+
+        .error-list li {
+            margin-bottom: 5px;
+        }
+
+    ol, ul {
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    blockquote, q {
+        quotes: none;
+    }
+
+        blockquote:before, blockquote:after, q:before, q:after {
+            content: '';
+            content: none;
+        }
+
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+
+    /*-- start editing from here --*/
+    a {
+        text-decoration: none;
+    }
+
+    .txt-rt {
+        text-align: right;
+    }
+
+    /* text align right */
+    .txt-lt {
+        text-align: left;
+    }
+
+    /* text align left */
+    .txt-center {
+        text-align: center;
+    }
+
+    /* text align center */
+    .float-rt {
+        float: right;
+    }
+
+    /* float right */
+    .float-lt {
+        float: left;
+    }
+
+    /* float left */
+    .clear {
+        clear: both;
+    }
+
+    /* clear float */
+    .pos-relative {
+        position: relative;
+    }
+
+    /* Position Relative */
+    .pos-absolute {
+        position: absolute;
+    }
+
+    /* Position Absolute */
+    .vertical-base {
+        vertical-align: baseline;
+    }
+
+    /* vertical align baseline */
+    .vertical-top {
+        vertical-align: top;
+    }
+
+    /* vertical align top */
+    nav.vertical ul li {
+        display: block;
+    }
+
+    /* vertical menu */
+    nav.horizontal ul li {
+        display: inline-block;
+    }
+
+    /* horizontal menu */
+    img {
+        max-width: 100%;
+    }
+
+    /*-- end reset --*/
+    body {
+        background: #76b852;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to top, #76b852, #8DC26F);
+        background: -moz-linear-gradient(to top, #76b852, #8DC26F);
+        background: -o-linear-gradient(to top, #76b852, #8DC26F);
+        background: linear-gradient(to top, #76b852, #8DC26F);
+        background-size: cover;
+        background-attachment: fixed;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    h1 {
+        font-size: 3em;
+        text-align: center;
+        color: #fff;
+        font-weight: 100;
+        text-transform: capitalize;
+        letter-spacing: 4px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    /*-- main --*/
+    .main-w3layouts {
+        padding: 3em 0 1em;
+    }
+
+    .main-agileinfo {
+        width: 35%;
+        margin: 3em auto;
+        background: rgba(0, 0, 0, 0.18);
+        background-size: cover;
+    }
+
+    .agileits-top {
+        padding: 3em;
+    }
+
+    .error-message {
+        color: red; /* Set text color to red */
+        font-size: 14px; /* Set font size */
+        font-weight: bold; /* Set font weight to bold */
+        margin-top: 5px; /* Add margin on top */
+    }
+    input.email, input.text.w3lpass {
+        margin: 2em 0;
+    }
+
+    .text:focus, .text:valid {
+        box-shadow: none;
+        outline: none;
+        background-position: 0 0;
+    }
+
+        .text:focus::-webkit-input-placeholder, .text:valid::-webkit-input-placeholder {
+            color: rgba(255, 255, 255, 0.7);
+            font-size: .9em;
+            -webkit-transform: translateY(-30px);
+            -moz-transform: translateY(-30px);
+            -o-transform: translateY(-30px);
+            -ms-transform: translateY(-30px);
+            transform: translateY(-30px);
+            visibility: visible !important;
+        }
+
+    ::-webkit-input-placeholder {
+        color: #fff;
+        font-weight: 100;
+    }
+
+    :-moz-placeholder {
+        /* Firefox 18- */
+        color: #fff;
+    }
+
+    ::-moz-placeholder {
+        /* Firefox 19+ */
+        color: #fff;
+    }
+
+    :-ms-input-placeholder {
+        color: #fff;
+    }
+
+    input[type="submit"] {
+        font-size: .9em;
+        color: #fff;
+        background: #76b8;
+        outline: none;
+        border: 1px solid #76b852;
+        cursor: pointer;
+        padding: 0.9em;
+        -webkit-appearance: none;
+        width: 100%;
+        margin: 2em 0;
+        letter-spacing: 4px;
+    }
+
+        input[type="submit"]:hover {
+            -webkit-transition: .5s all;
+            -moz-transition: .5s all;
+            -o-transition: .5s all;
+            -ms-transition: .5s all;
+            transition: .5s all;
+            background: #ff4b5a;
+        }
+
+    .agileits-top p {
+        font-size: 1em;
+        color: #fff;
+        text-align: center;
+        letter-spacing: 1px;
+        font-weight: 300;
+    }
+
+        .agileits-top p a {
+            color: #fff;
+            -webkit-transition: .5s all;
+            -moz-transition: .5s all;
+            transition: .5s all;
+            font-weight: 400;
+        }
+
+            .agileits-top p a:hover {
+                color: #76b852;
+            }
+
+    /*-- //main --*/
+    /*-- checkbox --*/
+    .wthree-text label {
+        font-size: 0.9em;
+        color: black;
+        font-weight: 200;
+        cursor: pointer;
+        position: relative;
+    }
+
+    input.checkbox {
+        background: #8DC26F;
+        cursor: pointer;
+        width: 1.2em;
+        height: 1.2em;
+    }
+
+        input.checkbox:before {
+            content: "";
+            position: absolute;
+            width: 1.2em;
+            height: 1.2em;
+            background: inherit;
+            cursor: pointer;
+        }
+
+        input.checkbox:after {
+            content: "";
+            position: absolute;
+            top: 0px;
+            left: 0;
+            z-index: 1;
+            width: 1.2em;
+            height: 1.2em;
+            border: 1px solid #fff;
+            -webkit-transition: .4s ease-in-out;
+            -moz-transition: .4s ease-in-out;
+            -o-transition: .4s ease-in-out;
+            transition: .4s ease-in-out;
+        }
+
+        input.checkbox:checked:after {
+            -webkit-transform: rotate(-45deg);
+            -moz-transform: rotate(-45deg);
+            -o-transform: rotate(-45deg);
+            -ms-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+            height: .5rem;
+            border-color: #fff;
+            border-top-color: transparent;
+            border-right-color: transparent;
+        }
+
+    .anim input.checkbox:checked:after {
+        -webkit-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        -o-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+        height: .5rem;
+        border-color: transparent;
+        border-right-color: transparent;
+        animation: .4s rippling .4s ease;
+        animation-fill-mode: forwards;
+    }
+
+
+
+    /*-- //checkbox --*/
+    /*-- copyright --*/
+    .colorlibcopy-agile {
+        margin: 2em 0 1em;
+        text-align: center;
+    }
+
+        .colorlibcopy-agile p {
+            font-size: .9em;
+            color: #fff;
+            line-height: 1.8em;
+            letter-spacing: 1px;
+            font-weight: 100;
+        }
+
+            .colorlibcopy-agile p a {
+                color: #fff;
+                transition: 0.5s all;
+                -webkit-transition: 0.5s all;
+                -moz-transition: 0.5s all;
+                -o-transition: 0.5s all;
+                -ms-transition: 0.5s all;
+            }
+
+                .colorlibcopy-agile p a:hover {
+                    color: #000;
+                }
+
+    /*-- //copyright --*/
+    .wrapper {
+        position: relative;
+        overflow: hidden;
+    }
+
+</style>
+
+<body>
+    <div class="card-heading">
+        <h2 class="title">Login Form</h2>
+    </div>
+    <div class="card-body">
+        <form asp-action="SignIn">
+            <div class="form-row">
+                <div class="name">Email</div>
+                <div class="value">
+                    <div class="input-group">
+                        <input class="input--style-5" type="email" name="email" asp-for="@Model.Email">
+                        <span asp-validation-for="@Model.Email" class="error-message"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="name">Password</div>
+                <div class="value">
+                    <div class="input-group">
+                        <input class="input--style-5" type="password" asp-for="@Model.Password">
+                        <span asp-validation-for="@Model.Password" class="error-message"></span>
+                    </div>
+                    <div asp-validation-summary="ModelOnly" class="error-message"></div>
+                </div>
+            </div>
+                
+            <div class="wthree-text">
+                <label class="anim">
+                    <input type="checkbox" asp-for="@Model.RememberMe" class="checkbox">
+                    <span><p>Remember me</p></span>
+                </label>
+                <div class="clear"> </div>
+            </div>
+            <input class="btn btn--radius-2 btn--red" type="submit" value="Login">
+        </form>
+        <div class="form-row p-t-20">
+                <p> Did not Have Account?  <a asp-controller="Account" asp-action="SignUp"> Sign Up Now!</a></p>
+        </div>
+        <div class="form-row pos-absolute">
+                <p> Forget Password! <a asp-controller="Account" asp-action="ForgetPassword"> Reset It Now..</a></p>
+        </div>
+    </div>
+</body>
+</html>
+
+

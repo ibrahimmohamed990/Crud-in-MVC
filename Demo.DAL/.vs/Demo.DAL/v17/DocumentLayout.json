@@ -1,0 +1,112 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Route\\MVC\\Session 07\\MVC Demo\\Demo.DAL\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{103688AD-B280-4C4E-94B5-3C3DDFAAB123}|..\\Demo.PL\\Demo.PL.csproj|e:\\route\\mvc\\session 07\\mvc demo\\demo.pl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{103688AD-B280-4C4E-94B5-3C3DDFAAB123}|..\\Demo.PL\\Demo.PL.csproj|e:\\route\\mvc\\session 07\\mvc demo\\demo.pl\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{103688AD-B280-4C4E-94B5-3C3DDFAAB123}|..\\Demo.PL\\Demo.PL.csproj|e:\\route\\mvc\\session 07\\mvc demo\\demo.pl\\helpers\\emailsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{103688AD-B280-4C4E-94B5-3C3DDFAAB123}|..\\Demo.PL\\Demo.PL.csproj|e:\\route\\mvc\\session 07\\mvc demo\\demo.pl\\helpers\\email.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{103688AD-B280-4C4E-94B5-3C3DDFAAB123}|..\\Demo.PL\\Demo.PL.csproj|e:\\route\\mvc\\session 07\\mvc demo\\demo.pl\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:5:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Route\\MVC\\Session 07\\MVC Demo\\Demo.PL\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Demo.PL\\Program.cs",
+              "ToolTip": "E:\\Route\\MVC\\Session 07\\MVC Demo\\Demo.PL\\Program.cs",
+              "RelativeToolTip": "..\\Demo.PL\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T02:27:08.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmailSettings.cs",
+              "DocumentMoniker": "E:\\Route\\MVC\\Session 07\\MVC Demo\\Demo.PL\\Helpers\\EmailSettings.cs",
+              "RelativeDocumentMoniker": "..\\Demo.PL\\Helpers\\EmailSettings.cs",
+              "ToolTip": "E:\\Route\\MVC\\Session 07\\MVC Demo\\Demo.PL\\Helpers\\EmailSettings.cs",
+              "RelativeToolTip": "..\\Demo.PL\\Helpers\\EmailSettings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T06:36:42.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Email.cs",
+              "DocumentMoniker": "E:\\Route\\MVC\\Session 07\\MVC Demo\\Demo.PL\\Helpers\\Email.cs",
+              "RelativeDocumentMoniker": "..\\Demo.PL\\Helpers\\Email.cs",
+              "ToolTip": "E:\\Route\\MVC\\Session 07\\MVC Demo\\Demo.PL\\Helpers\\Email.cs",
+              "RelativeToolTip": "..\\Demo.PL\\Helpers\\Email.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T06:36:19.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "E:\\Route\\MVC\\Session 07\\MVC Demo\\Demo.PL\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "..\\Demo.PL\\Controllers\\AccountController.cs",
+              "ToolTip": "E:\\Route\\MVC\\Session 07\\MVC Demo\\Demo.PL\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "..\\Demo.PL\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAF8AAAAAAAAAAAAgwG4AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T04:32:18.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Route\\MVC\\Session 07\\MVC Demo\\Demo.PL\\Views\\Employee\\Index.cshtml",
+              "RelativeDocumentMoniker": "..\\Demo.PL\\Views\\Employee\\Index.cshtml",
+              "ToolTip": "E:\\Route\\MVC\\Session 07\\MVC Demo\\Demo.PL\\Views\\Employee\\Index.cshtml",
+              "RelativeToolTip": "..\\Demo.PL\\Views\\Employee\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-11T00:03:17.196Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

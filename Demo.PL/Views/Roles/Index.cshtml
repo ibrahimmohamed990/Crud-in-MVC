@@ -1,0 +1,76 @@
+﻿@model IEnumerable<ApplicationRole>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>All Roles</h1>
+<br />
+<a asp-action="Create" class="btn btn-primary">Create New Role</a>
+<br />
+<br />
+<style>
+    td {
+        text-align: center;
+    }
+    th {
+        text-align: center;
+    }
+</style>
+
+
+@if (Model?.Count() > 0)
+{
+    <table class="table">
+        <thead class="table-dark">
+            <tr>
+                <th scope="col">Role ID</th>
+                <th scope="col">Role Name</th>
+                <th scope="col">Create At</th>
+
+                <th scope="col">A-O-R Users</th>
+                <th scope="col">Details</th>
+                <th scope="col">Update</th>
+                <th scope="col">Delete</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.Name</td>
+                    <td>@Html.DisplayFor(m => item.CreateAt.Day)-@Html.DisplayFor(m => item.CreateAt.Month)-@Html.DisplayFor(m => item.CreateAt.Year)</td>
+                    <td>
+                        <a class="btn btn-dark" asp-controller="Roles" asp-action="AddOrRemoveUsers" asp-route-id="@item.Id">
+                            <i class="btn-toolbar"></i> Add Or Remove Users
+                        </a>
+                    </td>
+                    <td>
+                        <a class="btn btn-success" asp-controller="Roles" asp-action="Details" asp-route-id="@item.Id">
+                            <i class="bi bi-info-circle"></i> Details
+                        </a>
+                    </td>
+                    <td>
+                        <a class="btn btn-info" asp-controller="Roles" asp-action="Update" asp-route-id="@item.Id">
+                            <i class="btn-toolbar"></i> Update
+                        </a>
+                    </td>
+                    <td>
+                        <a class="btn btn-danger" asp-controller="Roles" asp-action="Delete" asp-route-id="@item.Id">
+                            <i class="btn-danger"></i> Delete
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <div class="alert alert-warning">
+        <h2>No Roles Found!!</h2>
+    </div>
+}
+
+
